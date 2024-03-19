@@ -7,7 +7,7 @@
     $base: 1920;
   }
 
-  @return #{($value * 100) / $base}vw;
+  @return calc(($value * 100) / $base) * 1vw;
 }
 
 // Font
