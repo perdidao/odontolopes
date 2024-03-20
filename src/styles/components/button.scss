@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 $spacing-l;
+  height: vw(46);
+  background: $color-primary;
+  border-radius: vw(6);
+  border: 2px solid $color-primary;
+
+  text-decoration: none;
+  color: $color-secondary;
+  font-family: $font-title;
+  text-transform: uppercase;
+  letter-spacing: 0.225em;
+  font-size: $font-size-xxs;
+
+  transition: all 300ms ease;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-primary;
+  }
+}

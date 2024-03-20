@@ -7,3 +7,13 @@
   font-size: vw(16);
   font-weight: $font-weight-medium;
 }
+
+.container {
+  width: 80vw;
+  max-width: vw(1480);
+  margin: 0 auto;
+}
+
+.gradient-background {
+  background-image: linear-gradient(to bottom, $color-white, $color-terciary);
+}
