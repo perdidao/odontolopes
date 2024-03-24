@@ -49,9 +49,16 @@
     align-items: center;
 
     &-link {
+      display: block;
       margin-left: $spacing-m;
       text-decoration: none;
       transition: opacity 300ms ease;
+      width: vw(24);
+
+      img {
+        display: block;
+        width: 100%;
+      }
       
       &:hover {
         opacity: 0.7;
